@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Information</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+        display: flex;
+        flex-direction: column;
+      }
+
+      .container {
+        width: 600px;
+        margin: 50px auto;
+        background: white;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        overflow: hidden;
+      }
+
+      .header {
+        background: linear-gradient(to right, #ff6a00, #ee0979, #0038ff);
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      .header h1 {
+        font-size: 24px;
+        margin: 0;
+      }
+
+      .content {
+        padding: 20px;
+      }
+
+      .contact-item {
+        margin-bottom: 20px;
+      }
+
+      .contact-item h2 {
+        margin: 0 0 8px;
+        font-size: 18px;
+        color: #333;
+      }
+
+      .contact-item a {
+        display: inline-block;
+        padding: 8px 12px;
+        color: white;
+        background-color: #0078ff;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: bold;
+        transition: background-color 0.3s;
+      }
+
+      .contact-item a:hover {
+        background-color: #005dcc;
+      }
+
+      .contact-item a span {
+        font-weight: normal;
+      }
+
+      .skype-id {
+        color: #333;
+      }
+
+      .skype-id span {
+        padding: 8px 12px;
+        background-color: #f4f4f4;
+        border-radius: 6px;
+        color: #333;
+        font-family: monospace;
+        font-size: 14px;
+        display: inline-block;
+        border: 1px solid #ddd;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      .skype-id span:hover {
+        background-color: #ddd;
+      }
+
+      .skype-id span:active {
+        background-color: #ccc;
+      }
+
+      footer {
+        text-align: center;
+        padding: 12px;
+        background-color: #f1f2f6;
+        color: #555;
+        font-size: 14px;
+        margin-top: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Contact Me</h1>
+      </div>
+      <div class="content">
+        <div class="contact-item">
+          <h2>Email:</h2>
+          <a href="mailto:disneyguy0915@gmail.com">disneyguy0915@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <h2>WhatsApp:</h2>
+          <a href="https://wa.me/+15055565617" target="_blank">
+            Chat on WhatsApp <span>(https://wa.me/+15055565617)</span>
+          </a>
+        </div>
+        <div class="contact-item">
+          <h2>Skype:</h2>
+          <a href="https://join.skype.com/invite/tVZPBgpghbqF" target="_blank">
+            Join Skype Chat
+            <span>(https://join.skype.com/invite/tVZPBgpghbqF)</span>
+          </a>
+          <p class="skype-id">
+            <strong>Skype ID:</strong>
+            <span onclick="copyToClipboard('live:.cid.470ed1c782c17d7f')"
+              >live:.cid.470ed1c782c17d7f</span
+            >
+          </p>
+        </div>
+        <div class="contact-item">
+          <h2>Telegram:</h2>
+          <a href="https://t.me/friendly3915" target="_blank">
+            Message on Telegram <span>(https://t.me/friendly3915)</span>
+          </a>
+        </div>
+        <div class="contact-item">
+          <h2>Discord:</h2>
+          <a href="https://discord.gg/rE4efgVBsr" target="_blank">
+            Join Discord Server <span>(https://discord.gg/rE4efgVBsr)</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <footer>© 2025 All Rights Reserved. Let's Connect! 😊</footer>
+
+    <script>
+      function copyToClipboard(text) {
+        const tempInput = document.createElement("input");
+        tempInput.value = text;
+
+        document.body.appendChild(tempInput);
+
+        tempInput.select();
+        tempInput.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+
+        document.body.removeChild(tempInput);
+
+        alert(`Skype ID copied to clipboard: ${text}`);
+      }
+    </script>
+  </body>
+</html>
