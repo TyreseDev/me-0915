@@ -4,7 +4,7 @@ Feel free to reach out to me through any of the following platforms. I'm always 
 
 ### 📧 Email:  
 You can contact me via email at:  
-**[tyresejin3915@gmail.com](mailto:tyresejin3915@gmail.com)**  
+**[disneyguy0915@gmail.com](mailto:disneyguy0915@gmail.com)**  
 
 ---  
 
