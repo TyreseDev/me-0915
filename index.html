@@ -74,7 +74,7 @@
       }
 
       .skype-id span {
-        padding: 8px 12px;
+        padding: 4px 8px;
         background-color: #f4f4f4;
         border-radius: 6px;
         color: #333;
@@ -91,6 +91,32 @@
       }
 
       .skype-id span:active {
+        background-color: #ccc;
+      }
+
+      .anydesk-id {
+        color: #333;
+        margin: 0;
+      }
+
+      .anydesk-id span {
+        padding: 4px 8px;
+        background-color: #f4f4f4;
+        border-radius: 6px;
+        color: #333;
+        font-family: monospace;
+        font-size: 14px;
+        display: inline-block;
+        border: 1px solid #ddd;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      .anydesk-id span:hover {
+        background-color: #ddd;
+      }
+
+      .anydesk-id span:active {
         background-color: #ccc;
       }
 
@@ -147,11 +173,11 @@
         </div>
         <div class="contact-item">
           <h2>Anydesk:</h2>
-          <a href="https://discord.gg/rE4efgVBsr" target="_blank">
+          <p class="anydesk-id">
             I would like to invite you to an AnyDesk session. My ID is <span onclick="copyToClipboard('1 148 095 879')"
               >1 148 095 879</span
             >.
-          </a>
+          </p>
         </div>
       </div>
     </div>
@@ -170,7 +196,7 @@
 
         document.body.removeChild(tempInput);
 
-        alert(`Skype ID copied to clipboard: ${text}`);
+        alert(`ID copied to clipboard: ${text}`);
       }
     </script>
   </body>
