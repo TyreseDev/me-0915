@@ -17,11 +17,14 @@
 
       .container {
         width: 600px;
+        height: 100%;
         margin: 50px auto;
         background: white;
         box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
         border-radius: 12px;
         overflow: hidden;
+        display: flex;
+        flex-direction: column;
       }
 
       .header {
@@ -31,13 +34,20 @@
         padding: 20px;
       }
 
+      .header img {
+        width: 100px;
+        aspect-ratio: 1/1;
+      }
+
       .header h1 {
         font-size: 24px;
         margin: 0;
       }
 
       .content {
+        height: 100%;
         padding: 20px;
+        overflow-y: auto;
       }
 
       .contact-item {
@@ -133,7 +143,8 @@
   <body>
     <div class="container">
       <div class="header">
-        <h1>Contact Me</h1>
+        <img src="./avatar.jpg" />
+        <h1>Contact Me (Tyrese Jin)</h1>
       </div>
       <div class="content">
         <div class="contact-item">
@@ -172,10 +183,17 @@
           </a>
         </div>
         <div class="contact-item">
+          <h2>GitHub:</h2>
+          <a href="https://github.com/TyreseDev" target="_blank">
+            Collaborate with me on GitHub
+            <span>(https://github.com/TyreseDev)</span>
+          </a>
+        </div>
+        <div class="contact-item">
           <h2>Anydesk:</h2>
           <p class="anydesk-id">
-            I would like to invite you to an AnyDesk session. My ID is <span onclick="copyToClipboard('1 148 095 879')"
-              >1 148 095 879</span
+            I would like to invite you to an AnyDesk session. My ID is
+            <span onclick="copyToClipboard('1 148 095 879')">1 148 095 879</span
             >.
           </p>
         </div>
