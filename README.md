@@ -46,6 +46,14 @@ Join my Discord server to chat with me:
 
 ---
 
+### 🔗 Website:
+
+You can fine my portfolio here:
+
+**[https://tyresejin.netlify.app](https://tyresejin.netlify.app)**
+
+---
+
 ### 🐙 GitHub:
 
 Connect and collaborate with me on GitHub:
