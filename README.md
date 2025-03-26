@@ -21,12 +21,12 @@ Click the link below to start chatting with me on WhatsApp:
 
 ---
 
-### 💻 Skype:
+### 💻 Microsoft Teams:
 
-Start a chat or add me on Skype:
+Start a chat or add me on Teams:
 
-- **Chat Link**: [https://join.skype.com/invite/tVZPBgpghbqF](https://join.skype.com/invite/tVZPBgpghbqF)
-- **Skype ID**: `live:.cid.470ed1c782c17d7f`
+- **Chat Link**: [https://teams.live.com/l/invite/FEA92oFGZu1BacyLQM](https://teams.live.com/l/invite/FEA92oFGZu1BacyLQM)
+- **Teams Email**: `disneyguy0915@gmail.com`
 
 ---
 
